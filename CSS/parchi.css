@@ -1,0 +1,225 @@
+body{
+    margin: 0%;
+    font-family:"Raleway",sans-serif;
+
+    
+}
+img {max-width: 100%;
+display: block;
+}
+header{
+    background-color: rgba(91, 153, 77, 1);
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px  180px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 27px;
+}
+.img-grande {
+    width: 100%;
+    height: 480px;
+    display: block;
+    object-fit: cover;
+    object-position: 70%;
+  }
+  .rettangolo {
+    position: relative;
+   top: -22px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(231, 126, 35, 1);
+    padding: 40px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 200px;
+   
+ }
+ .colonna{
+    padding: 20px;
+    max-height: 100%;
+    width: 80%;
+    margin: 0;
+  
+    
+ }
+ .sottotesto{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -50px;
+    font-weight: 500;
+ }
+ h1{
+   text-align: center;
+   color: white;
+   font-size: 65px;
+  margin-top: -40px;
+ }
+.titolo{
+  text-align: center;
+  color: white;
+  font-size: 80px;
+ margin-top:0px;
+ font-weight: 700;
+}
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+footer {
+  background-color: rgba(91, 153, 77, 1);
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 180px;
+  color: white;}
+
+  .testo-parco {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    margin: 40px auto;
+    max-width: 1200px;
+    padding:  10 100px;
+  
+  }
+  
+  .testo2 {
+    flex: 1; 
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    font-size: 26px;
+    line-height: 1.6;
+    max-width: 80%; 
+    font-weight: 500;
+    color:  rgba(231, 126, 35, 1);
+  }
+  
+  .testo-parco img {
+    width: 500px;
+    height: 900px;
+    object-fit: cover;
+    border-radius: 50px;
+    
+  }
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    nav ul {
+      flex-direction: row; 
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      margin-top: 10px;
+    }
+  
+    nav a {
+      font-size: 16px;
+    }
+  
+    .img-grande {
+      height: 250px;
+      object-position: center;
+    }
+  
+    .rettangolo {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+  
+    .colonna {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 40px; 
+      gap: 10px;
+      margin-top: 40px;
+    }
+  
+    .sottotesto{
+      font-size: 18px; 
+      margin-top: 10px;
+    }
+    .titolo{font-size: 40px; 
+      margin-top: 10px;
+      
+    }
+  
+    .testo-parco {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      padding: 0 20px;
+    }
+  
+    .testo-parco img {
+      width: 100%;
+      height: auto;
+      border-radius: 30px;
+    }
+  
+    .testo2 {
+      max-width: 100%;
+      font-size: 18px;
+    }
+    footer {
+
+      justify-content: center;
+      align-items: center;
+   gap: 200px;
+    
+    }
+  
+    .footer-left,
+    .footer-right {
+      font-size: 14px;
+     
+    }
+  }
+  strong {
+    font-weight: 800; 
+    color: rgba(231, 126, 35, 1); }
+  
+  
