@@ -254,8 +254,7 @@ a:hover {
         padding: 10px;
     }
 
-    /* header e footer rimangono invariati, niente modifiche */
-
+   
     header {
         flex-direction: column;
         align-items: center;
@@ -291,8 +290,8 @@ a:hover {
         font-size: 16px;
         margin-bottom: 20px;
         line-height: 1.5;
-        text-align: left; /* testo allineato a sinistra */
-        width: 100%; /* prendi tutta la larghezza disponibile */
+        text-align: left; 
+        width: 100%; 
     }
 
     .text-left p {
